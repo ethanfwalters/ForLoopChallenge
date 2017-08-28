@@ -62,30 +62,31 @@ public class ForLoopChallenge
 				};*/
 
 				// challenge five
-//				Scanner userInput = new Scanner(System.in);
-//
-//				System.out.println("Enter a lowerbound number:");
-//
-//				int lowerBound = userInput.nextInt();
-//
-//				System.out.println("Now enter a upperBound");
-//
-//				int upperBound = userInput.nextInt();
-//
-//				int outPutValue = 0;
-//
-//				for (int i = lowerBound; i <= upperBound; i++)
-//					{
-//
-//						outPutValue = outPutValue + i;
-//
-//						if (i == upperBound)
-//							{
-//								System.out.println("The sum for all the values " + lowerBound + " and " + upperBound
-//										+ " is " + outPutValue);
-//							}
-//
-//					}
+				
+				Scanner userInput = new Scanner(System.in);
+
+				System.out.println("Enter a lowerbound number:");
+
+				int lowerBound = userInput.nextInt();
+
+				System.out.println("Now enter a upperBound");
+
+				int upperBound = userInput.nextInt();
+
+				int outPutValue = 0;
+
+				for (int i = lowerBound; i <= upperBound; i++)
+					{
+
+						outPutValue = outPutValue + i;
+
+						if (i == upperBound)
+							{
+								System.out.println("The sum for all the values " + lowerBound + " and " + upperBound
+										+ " is " + outPutValue);
+							}
+
+					}
 
 				// challenge six
 
